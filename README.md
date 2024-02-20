@@ -8,4 +8,6 @@ The dataset used in this study originates from the UCI Machine Learning reposito
 
 Link: [UCI Machine Learning Repository - Room Occupancy Estimation](https://archive.ics.uci.edu/dataset/864/room+occupancy+estimation)
 
-The dataset consists of `10,129` instances with `19` features, including time series data on `temperature`, `light`, `CO2 levels`, `PIR`, and `sound`, gathered from sensor nodes in a 6m x 4.6m room
+The dataset consists of `10,129` instances with `19` features, including time series data on `temperature`, `light`, `CO2 levels`, `PIR`, and `sound`, gathered from sensor nodes in a 6m x 4.6m room.
+
+
