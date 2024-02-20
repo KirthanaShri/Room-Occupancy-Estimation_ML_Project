@@ -13,3 +13,4 @@ The dataset consists of `10,129` instances with `19` features, including time se
 
 ## EDA
 - `Feature Engineering:` Combined the 'Date' and 'Time' columns to create a new 'Date_time' column that helped to categorize room occupancy into different time segments ('Morning,' 'Afternoon,' 'Evening,' 'Night') by creating `Time_of_Day` column and converted them to numerical form using LabelEncoder. The 'Date_time' column was dropped to adhere to the independence assumption, facilitating the application of ML algorithms, which perform optimally under this condition.
+-  `Data Preprocessing:` High correlation among features S1_temp, S3_temp, and S4_temp, suggesting their similar impact on the target variable, thus warranting the removal of two features (S1_temp and S3_temp) to streamline the dataset's dimensionality.
