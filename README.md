@@ -7,3 +7,5 @@
 The dataset used in this study originates from the UCI Machine Learning repository and is credited to Adarsh Pal Singh, Vivek Jain, Sachin Chaudhari, Frank Alexander Kraemer, Stefan Werner, and Vishal Garg. The dataset is prominently featured in the research paper titled "Machine Learning-Based Occupancy Estimation Using Multivariate Sensor Nodes," presented at the 2018 IEEE Globecom Workshops (GC Wkshps).
 
 Link: [UCI Machine Learning Repository - Room Occupancy Estimation](https://archive.ics.uci.edu/dataset/864/room+occupancy+estimation)
+
+The dataset consists of `10,129` instances with `19` features, including time series data on `temperature`, `light`, `CO2 levels`, `PIR`, and `sound`, gathered from sensor nodes in a 6m x 4.6m room
