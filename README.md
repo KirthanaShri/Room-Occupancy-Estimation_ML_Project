@@ -11,3 +11,5 @@ Link: [UCI Machine Learning Repository - Room Occupancy Estimation](https://arch
 The dataset consists of `10,129` instances with `19` features, including time series data on `temperature`, `light`, `CO2 levels`, `PIR`, and `sound`, gathered from sensor nodes in a 6m x 4.6m room.
 
 
+## EDA
+We combined the 'Date' and 'Time' columns to create a new 'Date_time' column and categorized room occupancy into different time segments ('Morning,' 'Afternoon,' 'Evening,' 'Night'). We converted the 'Time_of_Day' column to categorical form using LabelEncoder. The 'Date_time' column was dropped to adhere to the independence assumption, facilitating the application of ML algorithms, which perform optimally under this condition.
